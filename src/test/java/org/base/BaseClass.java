@@ -1,5 +1,4 @@
 package org.base;
-
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.event.KeyEvent;
@@ -12,7 +11,6 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DateUtil;
@@ -552,10 +550,13 @@ public class BaseClass {
 		Date d = new Date();
 		System.out.println(test + d);
 	}
+
+	public static void space() {
+		System.out.println();
+	}
 	
 	public static void aathira() {
 		System.out.println();
 	}
-	
 
 }
